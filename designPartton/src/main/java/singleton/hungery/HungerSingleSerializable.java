@@ -1,7 +1,5 @@
 package singleton.hungery;
 
-import com.sun.org.apache.bcel.internal.generic.NEW;
-import sun.rmi.runtime.Log;
 
 import java.io.ObjectStreamException;
 import java.io.Serializable;
