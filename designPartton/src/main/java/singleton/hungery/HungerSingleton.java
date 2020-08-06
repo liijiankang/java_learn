@@ -5,14 +5,14 @@ package singleton.hungery;
  * @AUTHOR: Lijiankanglc
  * @DATE: 2020/8/6 8:54
  */
-public class HungerySingleton {
+public class HungerSingleton {
 
-    private static HungerySingleton instance = new HungerySingleton();
+    private static HungerSingleton instance = new HungerSingleton();
 
-    private HungerySingleton() {
+    private HungerSingleton() {
     }
 
-    public static HungerySingleton getInstance(){
+    public static HungerSingleton getInstance(){
         return instance;
     }
 }

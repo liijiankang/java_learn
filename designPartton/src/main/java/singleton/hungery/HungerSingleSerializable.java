@@ -9,15 +9,15 @@ import java.io.Serializable;
  * @AUTHOR: Lijiankanglc
  * @DATE: 2020/8/6 9:00
  */
-public class HungerySingleSeriable implements Serializable {
+public class HungerSingleSerializable implements Serializable {
     static final long serialVersionUID = 10L;
-    private static HungerySingleSeriable instance = new HungerySingleSeriable();
+    private static HungerSingleSerializable instance = new HungerSingleSerializable();
 
-    public static HungerySingleSeriable getInstance() {
+    public static HungerSingleSerializable getInstance() {
         return instance;
     }
 
-    HungerySingleSeriable readResolve() throws ObjectStreamException {
+    HungerSingleSerializable readResolve() throws ObjectStreamException {
         return instance;
     }
 
